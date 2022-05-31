@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+  <div class="content">
+    <header>
+      <div class="header">
+        <h1>Student Survey Form</h1>
+        <p>Thank you for taking the time to help up improve the platform</p>
+      </div>
+    </header>
+
+    <form class="survey-form">
+
+      <div class="group-survey">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-style" placeholder="Enter your name" required />
+      </div>
+
+      <div class="group-survey">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" class="form-style" placeholder="Enter your Email" required />
+      </div>
+
+      <div class="group-survey">
+        <label id="number-label" for="number">Age<span>(optional)</span></label>
+        <input type="number" name="age" class="form-style" placeholder="Age" />
+      </div>
+
+      <div class="group-survey">
+        <p>Which option best describes your current role?</p>
+          <select id="dropdown" name="role" class="form-style">
+          <option>Select current role</option>
+          <option value="student">Student</option>
+          <option value="jobless">Way trabaho</option>
+          <option value="ambot">Ambot Sab</option>
+          <option value="wala">Wara gud</option>
+          </select>
+      </div>
+
+      <div class="group-survey"">
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+          <input name=" " value="definitely" type="radio" class="int-radio" checked />Definitely</label>
+        <label>
+          <input name=" " value="maybe" type="radio" class="int-radio" />Maybe</label>
+      
+        <label><input name=" " value="not-sure" type="radio" class="int-radio" />Not sure</label>
+
+      <div class="group-survey">
+        <p>What is your favorite feature of freecodecamp? </p>
+        <select name="dropdown" class="form-style">
+          <option >Select an option</option>
+          <option value="">Ambot</option>
+          <option value="">Sir wala ko kabalo</option>
+          <option value="">Si sir ang nakabalo</option>
+          <option value="">Wara gud</option>
+
+        </select>
+      </div>
+
+      <div class="group-survey">
+        <p>What would you like to improve? <span>(Check all that apply)</span></p>
+        <label><input type="checkbox" class="int-radio" />Font end Project</label>
+        <label><input name="" type="checkbox" class="int-radio" />Back-end Projects</label>
+        <label><input name="" type="checkbox" class="int-radio" />Data Visualization</label>
+        <label><input name="" type="checkbox" class="int-radio" />Challenges</label>
+        <label><input name="" type="checkbox" class="int-radio" />Open Source Community</label>
+        <label><input name="" type="checkbox" class="int-radio" />Challenges</label>
+        <label><input name="" type="checkbox" class="int-radio" />Gitter help rooms</label>
+        <label><input name="" type="checkbox" class="int-radio" />Videos</label>
+        <label><input name="" type="checkbox" class="int-radio" />City Meetups</label>
+      </div>
+
+      <div class="group-survey">
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" class="input-txtarea" name="comment"
+          placeholder="Enter your comment here..."></textarea>
+      </div>
+
+      <div class="group-survey">
+        <button type="submit" id="submit" class="submit-btn">
+          Submit
+        </button>
+       </div>
+       <footer class="footer">
+        <div class="footer-container">
+            <h2>WebSystems and Technology 1</h2>
+            <p>Subject handled by Sir Landrex Rebuera</p>
+
+            <ul class="socmed-links">
+                <li><a href="https://www.facebook.com/profile.php?id=100077170211803"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <div class="footer-bot">
+                <p>Copyright &copy;2022 WebSystems and Tech 1 Designed by <span>Keiven Mangin</span></p>
+            </div>
+        </div>
+</footer>
+
+
+
+    </form>
+  </div>
+</body>
+
+</html>

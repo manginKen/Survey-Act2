@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+body{
+    background: url("../Images/employee-meeting.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #000;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+  
+  h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  .content {
+    width: 100vh;
+    margin: 30px  auto 0 auto;
+  }
+
+  .header {
+    padding: 0 0.600rem;
+    margin-bottom: 1.875rem;
+    background-color: #483d8b;
+    border-radius: 10px;
+  }
+  
+  .header p {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  span {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #000039;
+  }
+  
+  .header h1 {
+    text-align: center;
+  }
+
+  form {
+    background: #87cefa;
+    opacity: 0.7;
+    padding: 2.5em 2em;
+    border-radius: 0.25rem;
+    padding: 2.5rem;
+  }
+  
+  
+  .group-survey {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  .form-style {
+    width: 100%;
+    height: 2.375rem;
+    padding: 1em, 2em;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+  }
+
+ 
+  .int-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-txtarea{
+    min-height: 100px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    
+    width: 100%;
+    padding: 0.75rem;
+    background: green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+footer {
+   
+  background-color: #111;
+  height: auto;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container h2{
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+.footer-container p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.socmed-links{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 2rem 3rem 0;
+}
+.socmed-links li{
+  margin: 0 12px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socmed-links a i{
+  font-size: 2.5rem;
+}
+.socmed-links a:hover i{
+  color: aqua;
+}
+.footer-bot{
+  background: #000;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  
+  
+}
+.footer-bot span{
+  text-transform: uppercase;
+  color: aqua
+}
+
+/* This is for the mobole view */
+@media (min-width: 500px) {
+  .content {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 600px) {
+  .content {
+    max-width: 600px;
+  }
+}
+
